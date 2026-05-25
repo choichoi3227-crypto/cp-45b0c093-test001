@@ -9,9 +9,10 @@ compatibility_flags = ["nodejs_compat"]
 binding = "CACHE"
 id      = "af49af8059bb42849a3dc9fb025c04f7"
 
-[[services]]
-binding = "PHP_RUNNER"
-service = "cp-45b0c093-wp-php"
+# PHP_RUNNER: WordPress 설치 완료 후 아래 주석 해제
+# [[services]]
+# binding = "PHP_RUNNER"
+# service = "cp-45b0c093-wp-php"
 
 [vars]
 SITE_ID      = "45b0c093-19e1-45d3-9a89-2e5947d736c4"
